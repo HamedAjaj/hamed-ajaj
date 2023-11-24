@@ -1,0 +1,17 @@
+<header class="header" style="margin-bottom: 150px;">
+    <div class="logo">You are Welcome</div>
+    <div class="link-container">
+        <ul class="links open"[class.open]="isOpen">
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">About Me </a> </li>
+            <li><a href="#"> Services</a> </li>
+            <li><a href="#"> Projects</a> </li>
+            <li><a href="#">Skills</a></li>
+        </ul>
+        <button class="toggle-menu" [class.active]="isActive" (click)="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
